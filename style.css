@@ -135,7 +135,7 @@ h2 {
 
   .game-container {
     width: 400px;
-    height: 460px;
+    height: 380px;
   }
 
   .header {
@@ -151,9 +151,8 @@ h2 {
   }
   
   .player-container {
-    margin: 45px;
-  
-  }
+    margin: 20px 45px;
+    }
   
   h2 {
     font-size: 20px;
@@ -161,10 +160,18 @@ h2 {
   
   .far {
     font-size: 27px;
-    margin-right: 40px;
-    User-select: none;
   }
 
+  .reset-icon {
+    font-size: 30px;
+    margin-left: 35px;
+    margin-top: 15px;
+  }
+
+  .result-text {
+    font-size: 20px;
+    margin-top: 10px;
+  }
   .rules-container {
     width: 400px;
     height: 380px;
@@ -176,5 +183,59 @@ h2 {
 
   .rules i {
     font-size: 27px;
+  }
+}
+
+/* Media Query: small phones (Vertical) */
+@media screen and (max-width: 320px) {
+  
+  .game-container {
+    width: 320px;
+    height: 310px;
+  }
+
+  .header {
+    height: 60px;
+  }
+
+  .player-container {
+    margin: 10px 20px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+  
+ 
+  h2 {
+    font-size: 17px;
+  }
+  
+  .far {
+    font-size: 20px;
+  }
+
+  .reset-icon {
+    font-size: 22px;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+
+  .result-text {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .rules-container {
+    width: 320px;
+    height: 330px;
+  }
+  
+  .header-rules {
+    height: 60px;
+  }
+
+  .rules i {
+    font-size: 20px;
   }
 }
