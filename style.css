@@ -46,8 +46,6 @@ body {
   justify-content: space-evenly;
   font-size: 29px;
   align-items: baseline;
-
-
 }
 
 
@@ -134,52 +132,49 @@ h2 {
 
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
+
   .game-container {
-    width: 95%;
-    height: 580px;
+    width: 400px;
+    height: 460px;
   }
 
-  h1 {
-    font-size: 24px;
+  .header {
+    height: 60px;
   }
 
   .player-container {
-    margin: 50px 0 25px 25px;
-  }
-
-  .far {
-    margin-right: 20px;
-  }
-
-  .reset-icon {
-    margin-top: 25px;
-    margin-left: 25px;
-  }
-}
-
-/* Media Query: iPhone (Vertical) */
-@media screen and (max-width: 376px) {
-  .game-container {
-    height: 550px;
+    margin: 15px 15px 15px 15px;
   }
 
   h1 {
-    font-size: 22px;
+    font-size: 25px;
   }
-
+  
   .player-container {
-    margin: 43px 0 25px 20px;
+    margin: 45px;
+  
   }
-
+  
+  h2 {
+    font-size: 20px;
+  }
+  
   .far {
-    font-size: 43px;
+    font-size: 27px;
+    margin-right: 40px;
+    User-select: none;
   }
 
-  .reset-icon {
-    margin-top: 15px;
+  .rules-container {
+    width: 400px;
+    height: 380px;
+  }
+  
+  .header-rules {
+    height: 60px;
   }
 
-  .result-container {
-    margin: 0 20px;
+  .rules i {
+    font-size: 27px;
   }
 }
